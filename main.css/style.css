@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+body{
+   box-sizing: border-box;
+   max-width: 100%;
+   background-color: #464f54;
+   font-display: inherit;
+}
+.main-container{
+   font-size: 35px;
+   box-sizing: border-box;
+   background-color: #ffffff;
+   max-width: 1600px; 
+   padding: 150px 50px 20px 50px;
+   margin: 150px 70px 0px 70px;
+}
+.article-container{
+text-align:justify;
+padding: 50px 120px 0px;
+}
+.first-head{
+font-size: 22px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #cdcdcd;
+}
+.second-head{
+   margin-bottom: -30px;
+   letter-spacing: 0.2em;
+   font-family: 'Roboto', sans-serif;
+   font-size: 83px;
+}
+.third-head{
+   font-style: italic;
+   color: #999999;
+   font-size:40px;
+}
