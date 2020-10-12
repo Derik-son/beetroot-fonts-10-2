@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
 
 body{
    box-sizing: border-box;
@@ -20,9 +21,14 @@ text-align:justify;
 padding: 50px 120px 0px;
 }
 .first-head{
+   font-family: 'Roboto', sans-serif;
 font-size: 22px;
-font-family: Georgia, 'Times New Roman', Times, serif;
 color: #cdcdcd;
+font-weight: 300;
+}
+.year{
+   font-size: 25px;
+   font-family: 'Roboto', sans-serif;
 }
 .second-head{
    margin-bottom: -30px;
@@ -34,4 +40,18 @@ color: #cdcdcd;
    font-style: italic;
    color: #999999;
    font-size:40px;
+   font-weight: 300;
+}
+hr{
+   color: rgb(182, 35, 35);
+}
+.black{
+ width: 45%;
+ height: 15%;
+ background-color: black;
+ position: absolute;
+ right: 0%;
+ top: 10%;
+ color: #ffffff;
+   
 }
